@@ -509,6 +509,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5773792087845421653, guid: cbd93480ff7b99d42ab3be6aeb6ef21f, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 78631b35f9a15c847959888fb3960ec9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbd93480ff7b99d42ab3be6aeb6ef21f, type: 3}
 --- !u!1 &1052590763 stripped
@@ -516,36 +520,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5773792087836045523, guid: cbd93480ff7b99d42ab3be6aeb6ef21f, type: 3}
   m_PrefabInstance: {fileID: 1052590762}
   m_PrefabAsset: {fileID: 0}
---- !u!136 &1052590764
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1052590763}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.2
-  m_Height: 1.6060953
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.77, z: 0}
---- !u!54 &1052590765
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1052590763}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1763288032
 GameObject:
   m_ObjectHideFlags: 0

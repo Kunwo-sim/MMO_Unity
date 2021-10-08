@@ -12,7 +12,6 @@ public class CameraController : MonoBehaviour
     public GameObject _player = null;
     void Start()
     {
-        
     }
 
     void LateUpdate()
