@@ -4056,6 +4056,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1716243273081185900, guid: ec5beaa57de805a41ac25dc12c73c62c, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4298629978753442641, guid: ec5beaa57de805a41ac25dc12c73c62c, type: 3}
       propertyPath: m_Name
       value: UnityChan
